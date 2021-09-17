@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <title>Bootstrap5 Web Design </title>
+        <style>
+             .aayu_tbdr{
+                border:1px dashed #000;
+            }
+            body{
+                background: #432460;
+                background-image: url('img/rabbit.svg');
+                background-repeat: no-repeat;
+                background-position: 105px 407px;
+            }
+            header{
+                height:107px;
+            }
+            .aayu_main{
+                height: 614px;
+            }
+            footer{
+                height: 242px;
+            }
+            .aayu_header_nav > li > a{
+                padding: 46px 24px 15px 24px;                
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            .active{
+                background: #573A70;
+                color: #ffb900;
+            }
+            .active:hover{
+                color: #ffb900;
+            }
+            .aayu_circle{
+                width: 29px;
+                height: 29px;
+                border-radius: 29px;
+                background: #734D96;
+            }
+            .aayu_header_nav > li:last-child > a{
+                color:#e8c8ed;
+            }
+            .mycolor *{
+                color: #3e3d5f !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container p-0">
+            <header class="aayu_tbdr">
+                <a href="#" float-start btn mt-5>
+                    <img src="./img/logo3.png" alt="" height="30">
+                </a>
+                <ul class="nav float-end aayu_header_nav">
+                    <li class="nav-item">
+                      <a class="nav-link active"href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Our Plans</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Tools &amp; Resourses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link position-relative aayu_userlink" href="#"><span class="d-inline-block aayu_circle position-absolute top-50 start-0" style="left:-10px !important"></span>Nidhi Bokadiya <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                  </ul>
+            </header>
+            <div class="aayu_main aayu_tbdr">
+
+            </div>
+            <footer class="aayu_tbdr bg-white">
+                <div class="row m-0">
+                    <div class="col-5  mycolor">
+                        <h4>FEATURES</h4>
+                        <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Beginner Guide</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Tools and Resousces</a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="col-7  mycolor">
+                        <h4>SUPPORT</h4>
+                        <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Help Center</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Submit a Ticket</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="col-5 aayu_tbdr">A</div>
+                    <div class="col-7 aayu_tbdr">B</div>
+                </div>
+            </footer>
+
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>
